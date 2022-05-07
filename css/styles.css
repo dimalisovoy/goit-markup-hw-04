@@ -777,7 +777,7 @@ a.phone-style {
   padding: 6px 22px;
 
   box-shadow: 
-  transition: transform 300ms, box-shadow 300ms;
+  
 }
 
 .main-button:hover,
@@ -812,8 +812,6 @@ a.phone-style {
   box-shadow: 
   transition: transform 100ms, box-shadow 100ms;
 }
-
-
 
 .gallery-cards {
   display: block;
