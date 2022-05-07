@@ -183,7 +183,7 @@ a.phone-style {
 }
 
 .contact-item {
-  display: block;  
+  display: block;
   justify-content: center;
   align-items: center;
 }
@@ -200,7 +200,6 @@ a.phone-style {
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
-  
 }
 
 .contact-mail:hover,
@@ -224,8 +223,7 @@ a.phone-style {
   letter-spacing: 0.02em;
   color: var(--primari-text-color);
 
-
-  display: block;  
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -240,12 +238,10 @@ a.phone-style {
   fill: var(--button-color);
 }
 
-.contact-icon{  
+.contact-icon {
   margin-right: 10px;
   fill: var(--social-link);
 }
-
-
 
 /*----------- hero ------*/
 
@@ -329,8 +325,8 @@ a.phone-style {
   margin: 0;
 }
 
-.hero-pec-up {  
-  display: block;  
+.hero-pec-up {
+  display: block;
   justify-content: center;
   align-items: center;
   fill: var(--title-text-color);
@@ -627,7 +623,6 @@ a.phone-style {
 
 .container-address {
   display: block;
-
 }
 
 .footer-logo {
@@ -639,10 +634,9 @@ a.phone-style {
   margin-top: 60px;
 }
 
-.address{
+.address {
   margin-top: 20px;
 }
-
 
 .address-text {
   font-style: normal;
@@ -651,7 +645,7 @@ a.phone-style {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-text-color);
-  display: block;  
+  display: block;
   margin-bottom: 9px;
 }
 
@@ -694,15 +688,13 @@ a.phone-style {
   color: var(--white-text-color);
   margin-left: 70px;
   margin-bottom: 30px;
-  
-  
 }
 
-.Social{
+.Social {
   margin-top: 20px;
 }
 
-.social-link-footer{
+.social-link-footer {
   width: 44px;
   height: 44px;
   background: rgba(255, 255, 255, 0.1);
@@ -714,11 +706,11 @@ a.phone-style {
 }
 
 .social-link-footer:hover,
-.social-link-footer:focus{
+.social-link-footer:focus {
   background-color: var(--accent-color);
 }
 
-.social-icon-footer{
+.social-icon-footer {
   fill: var(--white-text-color);
 }
 
@@ -728,9 +720,8 @@ a.phone-style {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-align: center;  
+  text-align: center;
   margin-left: 0;
-
 }
 
 /*-----Портфолио-----*/
@@ -776,8 +767,8 @@ a.phone-style {
   border-radius: 4px;
   padding: 6px 22px;
 
-  box-shadow: 
-  
+  box-shadow: ;
+  transition: transform 300ms, box-shadow 300ms;
 }
 
 .main-button:hover,
@@ -785,7 +776,8 @@ a.phone-style {
   background-color: var(--button-color);
   color: var(--white-text-color);
   transform: translate(0px 3px);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .container {
@@ -809,7 +801,7 @@ a.phone-style {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
   margin-top: 30px;
-  box-shadow: 
+  box-shadow: ;
   transition: transform 100ms, box-shadow 100ms;
 }
 
@@ -841,5 +833,3 @@ a.phone-style {
 .gallery-text {
   color: var(--primari-text-color);
 }
-
-
